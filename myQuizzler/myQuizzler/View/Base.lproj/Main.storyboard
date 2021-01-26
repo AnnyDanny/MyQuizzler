@@ -22,7 +22,8 @@
                                         <rect key="frame" x="0.0" y="0.0" width="314" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="314" id="D3m-tY-PPe"/>
-                                            <constraint firstAttribute="height" constant="40" id="IVO-Hc-ect"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="314" id="IcR-vZ-eMo"/>
+                                            <constraint firstAttribute="height" constant="40" id="cNg-Pf-puk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,6 +119,7 @@
                         <outlet property="falseButton" destination="cXa-N5-rQx" id="wwi-I8-tQn"/>
                         <outlet property="progressiveBar" destination="JZi-Ic-Pvr" id="dxR-DB-OnH"/>
                         <outlet property="questionLabel" destination="xzU-mw-r3g" id="5Qv-Se-Bmh"/>
+                        <outlet property="scorelabel" destination="9jC-Jn-0uC" id="Wbm-Ue-pbr"/>
                         <outlet property="trueButton" destination="cD7-Lc-OZV" id="nS3-GI-UJF"/>
                     </connections>
                 </viewController>
