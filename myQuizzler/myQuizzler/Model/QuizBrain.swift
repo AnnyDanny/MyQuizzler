@@ -12,13 +12,13 @@ var score = 0
 
 struct QuizBrain {
     let quiz = [
-        Question(text: "Four + two = six", answer: "True"),
-        Question(text: "five + three = eight", answer: "True"),
-        Question(text: "one + six = nine", answer: "False"),
-        Question(text: "one + six = nine", answer: "False"),
-        Question(text: "one + six = nine", answer: "False"),
-        Question(text: "one + six = nine", answer: "False"),
-        Question(text: "one + six = nine", answer: "False")
+        Question(text: "A star can turn into a planet", answer: "True"),
+        Question(text: "The gravity can form waves", answer: "True"),
+        Question(text: "The sound travel faster in space", answer: "False"),
+        Question(text: "The color of the sun is white", answer: "True"),
+        Question(text: "The space empty is empty", answer: "False"),
+        Question(text: "The space is always cold", answer: "False"),
+        Question(text: "There is no center to the universe", answer: "True")
     ]
     
     func getQuestionText() -> String {
